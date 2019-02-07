@@ -81,8 +81,7 @@
         top: 0;
         right: -5px;
         width: 2px;
-        /* Change colour of Cursor Here */
-        background-color: white;
+        background-color: gray;
         z-index: 1;
         animation: flash 0.5s none infinite alternate;
       }
@@ -94,18 +93,33 @@
           opacity: 0;
         }
       }
+      @media screen and (max-width: 960px) {
+        .test-error {
+          font-size: 1rem
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .test-error {
+          font-size: 0.7rem
+        }
+      }
+      @media screen and (max-width: 370px) {
+        .test-error {
+          font-size: 0.6rem
+        }
+      }
     </style>
   </head>
   <body>
     <section class="test-error">
       <div class="paper-top"></div>
       <pre class="">
-  <span class="brackets">&lt;</span><span class="tag">section</span> <span class="atribute">class</span>=<span class="atribute-value type-js"><span class="text-js">"error-404 page not-found"</span></span><span class="brackets">&gt;</span>
-    <span class="brackets">&lt;</span><span class="tag">h1</span><span class="brackets">&gt;</span>Ошибка 404<span class="brackets">&lt;/</span><span class="tag">h1</span><span class="brackets">&gt;</span>
-    <span class="brackets">&lt;</span><span class="tag">div</span><span class="brackets">&gt;</span> 
-        <span class="brackets">&lt;</span><span class="tag">p</span><span class="brackets">&gt;</span>Тут может быть ваша реклама<span class="brackets">&lt;/</span><span class="tag">p</span><span class="brackets">&gt;</span> 
-        <span class="brackets">&lt;</span><span class="tag">a</span> <span class="atribute">href</span>=<span class="atribute-value">"<a class="orange-link"href="https://soft-werke.com">https://soft-werke.com</a>"</span><span class="brackets">&gt;</span><a href="https://soft-werke.com" class="white-link">на главную</a><span class="brackets">&lt;/</span><span class="tag">a</span><span class="brackets">&gt;</span>
-    <span class="brackets">&lt;/</span><span class="tag">div</span><span class="brackets">&gt;</span>
+<span class="brackets">&lt;</span><span class="tag">section</span> <span class="atribute">class</span>=<span class="atribute-value type-js"><span class="text-js">"error-404 page not-found"</span></span><span class="brackets">&gt;</span>
+  <span class="brackets">&lt;</span><span class="tag">h1</span><span class="brackets">&gt;</span>Ошибка 404<span class="brackets">&lt;/</span><span class="tag">h1</span><span class="brackets">&gt;</span>
+  <span class="brackets">&lt;</span><span class="tag">div</span><span class="brackets">&gt;</span> 
+    <span class="brackets">&lt;</span><span class="tag">p</span><span class="brackets">&gt;</span>Тут может быть ваша реклама<span class="brackets">&lt;/</span><span class="tag">p</span><span class="brackets">&gt;</span> 
+    <span class="brackets">&lt;</span><span class="tag">a</span> <span class="atribute">href</span>=<span class="atribute-value">"<a class="orange-link"href="https://soft-werke.com">https://soft-werke.com</a>"</span><span class="brackets">&gt;</span><a href="https://soft-werke.com" class="white-link">на главную</a><span class="brackets">&lt;/</span><span class="tag">a</span><span class="brackets">&gt;</span>
+  <span class="brackets">&lt;/</span><span class="tag">div</span><span class="brackets">&gt;</span>
 <span class="brackets">&lt;/</span><span class="tag">section</span><span class="brackets">&gt;</span>
       </pre>
       <div class="paper-bottom"></div>
